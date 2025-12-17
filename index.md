@@ -18,5 +18,5 @@ I’m a political scientist researching conflict dynamics and sabotage across wa
 - Feather River College (Incarcerated Student Program)
 
 ## Contact
-- Email: youremail@domain.com
-- LinkedIn: https://linkedin.com/in/yourhandle
+- Email: nate.steffen@wsu.edu
+- LinkedIn: https://www.linkedin.com/in/nate-steffen-a499792b/ 
