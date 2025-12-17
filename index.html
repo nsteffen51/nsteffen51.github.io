@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nate Steffen | Political Scientist</title>
+  <meta name="description" content="Nate Steffen — Political Scientist (Ph.D. ABD). Research on conflict, sabotage, and political violence." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg1:#0b1020;
+      --bg2:#0a2a43;
+      --card: rgba(255,255,255,.08);
+      --card2: rgba(255,255,255,.06);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.72);
+      --line: rgba(255,255,255,.14);
+      --accent1:#7c3aed;
+      --accent2:#06b6d4;
+      --accent3:#22c55e;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(1200px 700px at 15% 15%, rgba(124,58,237,.35), transparent 60%),
+        radial-gradient(900px 600px at 85% 20%, rgba(6,182,212,.28), transparent 55%),
+        radial-gradient(900px 600px at 60% 90%, rgba(34,197,94,.18), transparent 55%),
+        linear-gradient(180deg, var(--bg1), var(--bg2));
+      min-height:100vh;
+    }
+    a{color:inherit}
+    .wrap{max-width:1100px;margin:0 auto;padding:28px 18px 60px}
+    .topbar{
+      display:flex;align-items:center;justify-content:space-between;gap:16px;
+      padding:10px 14px;border:1px solid var(--line);border-radius:14px;
+      background:linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.04));
+      backdrop-filter: blur(10px);
+      position:sticky;top:14px;z-index:5;
+    }
+    .brand{display:flex;align-items:center;gap:12px}
+    .dot{
+      width:12px;height:12px;border-radius:999px;
+      background:linear-gradient(135deg,var(--accent1),var(--accent2));
+      box-shadow:0 0 0 4px rgba(255,255,255,.06);
+    }
+    .nav{display:flex;gap:14px;flex-wrap:wrap}
+    .nav a{opacity:.85;text-decoration:none;font-weight:600}
+    .nav a:hover{opacity:1;text-decoration:underline}
+    .hero{
+      margin-top:26px;
+      display:grid;grid-template-columns:1.2fr .8fr;gap:18px;
+      align-items:stretch;
+    }
+    @media (max-width:900px){.hero{grid-template-columns:1fr}}
+    .panel{
+      border:1px solid var(--line);
+      background:linear-gradient(180deg, var(--card), var(--card2));
+      border-radius:18px;padding:22px;
+      box-shadow: 0 20px 60px rgba(0,0,0,.35);
+    }
+    h1{font-size:44px;line-height:1.05;margin:0 0 10px}
+    @media (max-width:520px){h1{font-size:36px}}
+    .subtitle{color:var(--muted);font-size:16px;line-height:1.6;margin:0 0 16px}
+    .pills{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 0}
+    .pill{
+      padding:8px 10px;border-radius:999px;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.06);
+      font-weight:600;font-size:13px;color:rgba(255,255,255,.88);
+    }
+    .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+    .btn{
+      display:inline-flex;align-items:center;gap:10px;
+      padding:10px 12px;border-radius:12px;text-decoration:none;font-weight:800;
+      border:1px solid var(--line);
+      background:rgba(255,255,255,.06);
+    }
+    .btn.primary{
+      border-color:transparent;
+      background:linear-gradient(135deg, rgba(124,58,237,.95), rgba(6,182,212,.85));
+      color:white;
+    }
+    .btn:hover{transform:translateY(-1px)}
+    .grid{
+      margin-top:18px;
+      display:grid;grid-template-columns:repeat(12,1fr);gap:14px;
+    }
+    .card{grid-column:span 6}
+    @media (max-width:900px){.card{grid-column:span 12}}
+    .card h2{margin:0 0 10px;font-size:18px}
+    .card p{margin:0;color:var(--muted);line-height:1.65}
+    .list{margin:10px 0 0;padding-left:18px;color:var(--muted);line-height:1.7}
+    .footer{margin-top:22px;color:rgba(255,255,255,.55);font-size:13px;text-align:center}
+    .kicker{
+      display:inline-flex;gap:8px;align-items:center;
+      font-weight:800;letter-spacing:.08em;text-transform:uppercase;
+      color:rgba(255,255,255,.70);font-size:12px;margin-bottom:10px;
+    }
+    .spark{
+      width:18px;height:18px;border-radius:6px;
+      background:linear-gradient(135deg,var(--accent3),var(--accent2));
+      opacity:.9;
+    }
+    .mini{
+      display:grid;gap:12px;
+    }
+    .contact a{display:block;text-decoration:none;padding:10px 12px;border-radius:12px;border:1px solid var(--line);background:rgba(255,255,255,.06)}
+    .contact a:hover{background:rgba(255,255,255,.09)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="dot"></div>
+        <div style="font-weight:800">Nate Steffen</div>
+      </div>
+      <div class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="panel">
+        <div class="kicker"><span class="spark"></span> Political Science • Conflict • Sabotage</div>
+        <h1>Nate Steffen</h1>
+        <p class="subtitle">
+          Political Scientist (Ph.D. ABD). I study conflict dynamics and political violence, with a focus on sabotage and the
+          strategic “weaponization of friction” across war and peace.
+        </p>
+
+        <div class="cta">
+          <a class="btn primary" href="Nate_Steffen_CV.pdf">Download CV</a>
+          <a class="btn" href="https://www.linkedin.com/in/nate-steffen-a499792b/">LinkedIn</a>
+          <a class="btn" href="mailto:nathan.steffen@gmail.com">Email</a>
+        </div>
+
+        <div class="pills">
+          <div class="pill">Hybrid conflict</div>
+          <div class="pill">Political violence</div>
+          <div class="pill">Sabotage & targeting</div>
+          <div class="pill">Teaching & civic education</div>
+        </div>
+      </div>
+
+      <div class="panel mini">
+        <div>
+          <div class="kicker"><span class="spark"></span> Quick facts</div>
+          <div style="color:var(--muted);line-height:1.7">
+            <b>Ph.D. ABD</b> — Washington State University (expected 2026)<br/>
+            <b>Associate Faculty</b> — Butte, Porterville, Merced Colleges<br/>
+            <b>ISP Instructor</b> — Feather River College (California prisons)
+          </div>
+        </div>
+        <div class="contact" id="contact">
+          <a href="mailto:nathan.steffen@gmail.com"><b>Email</b><br/><span style="color:var(--muted)">nathan.steffen@gmail.com</span></a>
+          <a href="https://www.linkedin.com/in/nate-steffen-a499792b/"><b>LinkedIn</b><br/><span style="color:var(--muted)">Profile</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="panel card" id="about">
+        <h2>About</h2>
+        <p>
+          I am a political scientist and educator with experience across community colleges and universities, including
+          dual-enrollment programs and California’s Incarcerated Student Program. My courses emphasize analytical writing,
+          evidence-based reasoning, and connecting political institutions to contemporary security and governance problems.
+        </p>
+      </div>
+
+      <div class="panel card" id="research">
+        <h2>Research</h2>
+        <p><b>Dissertation:</b> <i>Target Differentiation in Sabotage: Testing Rovner’s “Weaponization of Friction” Across War and Peace</i></p>
+        <ul class="list">
+          <li>How actors choose sabotage targets and what patterns emerge across cases</li>
+          <li>How friction is produced, managed, and leveraged strategically</li>
+        </ul>
+        <p style="margin-top:10px"><b>Working Paper:</b> “The Transformative Implications of a Female Presidency”</p>
+      </div>
+
+      <div class="panel card" id="teaching">
+        <h2>Teaching</h2>
+        <p><b>Current:</b> Butte College; Porterville College (Dual Enrollment); Merced College (Dual Enrollment); Feather River College (ISP).</p>
+        <p style="margin-top:10px"><b>Previous:</b> Assistant Professor (Bismarck State College); Graduate Instructor (WSU); Visiting Professor (Shenyang Normal University).</p>
+      </div>
+
+      <div class="panel card">
+        <h2>Selected Experience</h2>
+        <p>
+          <b>International Criminal Court (The Hague)</b> — case-support work involving records workflows and analysis in victims participation/reparations.
+        </p>
+        <p style="margin-top:10px">
+          <b>California State Parks</b> — supported training materials and curriculum-related projects for peace officers and lifeguards.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">
+      © <span id="y"></span> Nate Steffen • Built on GitHub Pages
+    </div>
+  </div>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html> 
